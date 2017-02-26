@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人主页</title>
+    <link href="css/owl.carousel.css" rel="stylesheet"/>
+    <link href="css/owl.transitions.css" rel="stylesheet"/>
+    <link href="css/owl.theme.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link href="css/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="text-center"><a href="index.html">首页</a></li>
+                <li class="text-center"><a href="resume.html">个人简介</a></li>
+                <li class="text-center"><a href="portfolio.html">项目案例</a></li>
+                <li class="text-center"><a href="contact.html">联系方式</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- list -->
+<div class="container list">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1>作品展示</h1>
+        </div>
+    </div>
+    <div id="filters" class="row menu">
+        <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn-default" data-filter="*">全部</button>
+            <button type="button" class="btn btn-info" data-filter=".zheng">项目</button>
+            <button type="button" class="btn btn-info" data-filter=".app">网页布局</button>
+            <button type="button" class="btn btn-info" data-filter=".responsive">响应式</button>
+            <button type="button" class="btn btn-info" data-filter=".html5">游戏</button>
+            <button type="button" class="btn btn-info" data-filter=".software">小应用</button>
+            <button type="button" class="btn btn-info" data-filter=".weixin">自作小插件</button>
+            <button type="button" class="btn btn-info" data-filter=".full">fullpage</button>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div id="container-sort" class="project">
+            <div class="item  zheng col-md-3 col-xs-6 thumb">
+                <a href="javascript:;" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/huiying.png"/>
+                        </div>
+                        <div class="describe text-center">惠影科技传媒股份有限公司</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item  zheng col-md-3 col-xs-6 thumb">
+                <a href="javascript:;" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/4444.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">山西健体武术学校</div>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="item  software col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/news-manage/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/news.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">新闻管理系统</div>
+                    </div>
+                </a>
+            </div> -->
+         <!--    <div class="item  app col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/suning/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/7.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">苏宁易购</div>
+                    </div>
+                </a>
+            </div> -->
+  <!--           <div class="item  zheng col-md-3 col-xs-6 thumb">
+                <a href="http://www.isamell.com" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/isamell.jpg"/>
+                        </div>
+                        <div class="describe text-center">伊莎美尔</div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- <div class="item  app col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/yintai/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/yintai.jpg"/>
+                        </div>
+                        <div class="describe text-center">银泰网</div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- <div class="item app col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/yidong/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/yd.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">中国移动</div>
+                    </div>
+                </a>
+            </div> -->
+            
+            <div class="item full col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/wangyi/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/163.jpg"/>
+                        </div>
+                        <div class="describe text-center">网易邮箱</div>
+                    </div>
+                </a>
+            </div>
+           <!--  <div class="item zheng col-md-3 col-xs-6 thumb">
+                <a href="http://www.sxoxdl.cn" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/oxdl.jpg"/>
+                        </div>
+                        <div class="describe text-center">山西欧讯电力建设有限公司</div>
+                    </div>
+                </a>
+            </div> -->
+            <div class="item app col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/yintai/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/yintai.jpg"/>
+                        </div>
+                        <div class="describe text-center">银泰</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item full col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/yuqing/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/baiduyq.jpg"/>
+                        </div>
+                        <div class="describe text-center">百度舆情</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item responsive col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/apple/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/apple.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">苹果首页</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item app col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/tianmao/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/jd.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">京东</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item html5 col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/TypingGame/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/dazi.png"/>
+                        </div>
+                        <div class="describe text-center">打字小游戏</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item all html5 col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/tcs/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/tcs.png"/>
+                        </div>
+                        <div class="describe text-center">贪吃蛇游戏</div>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="item software col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/draw/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/draw.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">画板</div>
+                    </div>
+                </a>
+            </div>
+ -->        <!-- <div class="item software col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/icloud-me/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/iCloud.jpg" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">iCloud</div>
+                    </div>
+                </a>
+            </div> -->
+            <div class="item software col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/todolist/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/todolist.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">ToDoList</div>
+                    </div>
+                </a>
+            </div>
+           <!--  <div class="item html5 col-md-3 col-xs-6 thumb">
+                <a href="https://feifei219.github.io/saolei/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/saolei.jpg"/>
+                        </div>
+                        <div class="describe text-center">扫雷</div>
+                    </div>
+                </a>
+            </div> -->
+            <div class="item app col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/wlsd/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/wlsd.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">未来商店</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item app col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/shangcheng/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/360.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">商城</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item  weixin col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/chajian/xzmm.html" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/xzmm.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">旋转木马</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item  weixin col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/chajian/" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/xzan.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">旋转按钮</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item  weixin col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/chajian/zft.html" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/zft.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">正方体</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item  weixin col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/chajian/gif.html" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/gif.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">gif图</div>
+                    </div>
+                </a>
+            </div>
+            <div class="item  weixin col-md-3 col-xs-6 thumb">
+                <a href="https://tenkiss258.github.io/chajian/lbt.html" target="_blank">
+                    <div class="thumb-wrap">
+                        <div class="over-hid rel">
+                            <div class="mask"><i class="fa fa-link fa-3x"></i></div>
+                            <img class="img-responsive" src="img/zp/lbt.png" height="400" width="400"/>
+                        </div>
+                        <div class="describe text-center">轮播图</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ￥底部 -->
+<footer>
+    <div class="container">
+        <div class="row text-center">
+           
+            <div class="rel" style="display: inline-block;">
+                <a href="##">
+                    <i class="fa fa-qq fa-2x"></i>
+                    <div class="tap">
+                        <img src="img/qq.jpg "style="width: 110px;height:110px;">
+                    </div>
+                </a>
+            </div>
+            <a href="##"><i class="fa fa-weibo fa-2x"></i></a>
+            <div class="rel" style="display: inline-block;">
+                <a href="##">
+                    <i class="fa fa-weixin fa-2x"></i>
+                    <div class="tip">
+                        <img src="img/weixin.png "style="width: 110px;height:110px;">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 col-md-offset-2">电话：18234116089</div>
+            <div class="col-lg-4 col-md-4">地址：山西省朔州市</div>
+            <div class="col-lg-3 col-md-3">邮箱：837442643@qq.com</div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
